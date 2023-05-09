@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fale conosco</h1>
+    <form>
+        <div class="form-group">
+          <label for="firstName">Primeiro Nome</label>
+          <input type="text" id="firstName" name="firstName" placeholder="Seu nome...">
+        </div>
+      
+        <div class="form-group">
+          <label for="lastName">Último Nome</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Seu sobrenome...">
+        </div>
+      
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Seu e-mail.">
+        </div>
+      
+        <div class="form-group">
+          <label for="country">País</label>
+          <select id="country" name="country">
+            <option value="brasil">Brasil</option>
+            <option value="estadosUnidos">Estados Unidos</option>
+            <option value="japao">Japão</option>
+            <option value="china">China</option>
+            <option value="russia">Rússia</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label for="subject">Assunto</label>
+          <input type="text" id="subject" name="subject" placeholder="Escreva aqui">
+        </div>
+      
+        <button type="submit">Enviar</button>
+      </form>
+      <p class="textCenter">Em caso de dúvidas entre em contato pelo telefone: (35) 3622-8400</p>
+</body>
+
+
+</html>
+
+<style>
+    body {
+  background-color: #D8ECEE;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: #a507e3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+.textCenter{
+    text-align: center;
+}
+</style>
