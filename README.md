@@ -9,7 +9,7 @@
 
 ## 💻 Preview
 
-![print](https://user-images.githubusercontent.com/85360804/151673981-1e3ec75f-7e2b-4874-a539-2b1f04dc2377.png)
+![image](https://github.com/camilagsoares/universe/assets/85360804/eccec6c3-6d3e-4a39-ae04-0e8ea5eb70d8)
 
 
 ## 🛠 Tecnologias e ferramentas utilizadas
